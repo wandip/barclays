@@ -1,0 +1,110 @@
+img {
+
+border-radius : 50%;
+
+height : 200px;
+position : center;
+}
+
+body {
+
+background : #E7E7E7;
+}
+.profile input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+
+.id{
+font-size : 25px;
+}
+
+.title{
+
+color: grey;
+font-size : 18px;	
+
+}
+.profile{
+  
+  
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 360px;
+ margin-left : 25px ;
+ margin-top : 25px;
+  padding: 20px;
+  text-align: center;
+  text-margin: auto;
+  height: 520px;
+ box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+ font-family : arial;
+}
+
+.form{
+  
+  
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  
+	
+ margin-left : 400px;
+ margin-top : -360px;
+  padding: 20px;
+  text-align: center;
+  text-margin: auto;
+  height: 520px;
+  width : 750px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.logout button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #33cc33 ;
+  
+  border: 0;
+  padding: 10px;
+  color: #FFFFFF;
+  font-size: 14px;
+ margin-left : 1100px;
+ margin-top : 10px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.logout button:hover,.form button:active,.form button:focus {
+  background: #5bd75b;
+}
+
+
+.form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background:  #33cc33;
+  width: 30%;
+  border: 0;
+  padding: 30px;
+  color: #FFFFFF;
+  font-size: 14px;
+ margin : 75px;
+  top-margin: 200px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.form button:hover,.form button:active,.form button:focus {
+  background:#5bd75b;
+}
+
